@@ -1,0 +1,109 @@
+body {
+  background-color: #ffffff;
+  color: #212529;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dee2e6;
+}
+.navbar-brand {
+  color: #212529 !important;
+  font-weight: 700;
+}
+.navbar-brand:hover {
+  color: #2c2a2aa2 !important;
+}
+.Tab-card{
+    background-color: #ffffff;
+    color: #212529 !important;
+    font-weight: 700;
+
+}
+/* Tabs */
+.nav-tabs .nav-link {
+  border: none;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.nav-tabs .nav-link:hover {
+  background-color: #e9ecef;
+  color: #212529;
+}
+.nav-tabs .nav-link.active {
+  background-color: #ffffff;
+  color: #212529;
+  font-weight: 600;
+  border-bottom: 2px solid #ffffff;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 1rem;
+}
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+  color: #212529;
+  font-weight: 600;
+}
+
+/* Forms */
+textarea.form-control {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  color: #212529;
+}
+textarea.form-control:focus {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: none;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #000000;
+  border-color: #ffffff;
+  color: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-primary:hover {
+  background-color: #1f1e1ead;
+  border-color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(212, 208, 208, 0.3);
+}
+
+.btn-outline-secondary {
+  border-color: #ced4da;
+  color: #6c757d;
+}
+.btn-outline-secondary:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Output Area */
+#results-area {
+  animation: fadeIn 0.3s ease-in-out;
+}
+#renderedOutput {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  color: #212529;
+}
+
+/* Rounded Utilities */
+.rounded-4 { border-radius: 1rem !important; }
+.rounded-pill { border-radius: 50rem !important; }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

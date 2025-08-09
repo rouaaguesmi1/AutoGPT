@@ -1,0 +1,23 @@
+# Main frameworks
+fastapi
+uvicorn
+jinja2
+python-socketio 
+# LangChain for orchestration, models, and RAG
+langchain
+langgraph
+langchain-community
+langchain-ollama
+langchain-chroma 
+# Vector store
+chromadb
+
+# Tools
+duckduckgo-search
+
+# For environment variables
+python-dotenv
+#PDF for history 
+fpdf2
+#viewing 
+matplotlib
