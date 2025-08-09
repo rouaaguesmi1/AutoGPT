@@ -8,6 +8,8 @@ AutoGPT+ is a local-first platform for deploying specialized autonomous AI agent
 
 AutoGPT+ is more than a chatbot interface. It is a self-improving system with specialized agents—Planner, Researcher, Coder, Visualizer, Writer—designed to solve distinct problems. Its Retrieval-Augmented Generation (RAG) memory system enables continuous learning from prior outputs, increasing efficiency and knowledge over time.
 
+<img width="1585" height="733" alt="image" src="https://github.com/user-attachments/assets/dd53a463-7e54-4e76-a4be-cbfce5eb5f10" />
+
 ---
 
 ## Features
